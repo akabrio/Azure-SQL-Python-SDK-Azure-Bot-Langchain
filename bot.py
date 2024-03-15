@@ -3,7 +3,7 @@
 
 from botbuilder.core import ActivityHandler, TurnContext
 from botbuilder.schema import ChannelAccount
-from common.prompts import WELCOME_MESSAGE
+from prompts import WELCOME_MESSAGE
 from utils import SQLSearchAgent
 
 
